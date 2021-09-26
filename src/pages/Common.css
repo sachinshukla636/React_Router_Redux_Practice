@@ -1,0 +1,37 @@
+.root{
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    max-width: 60%;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.item-container{
+    width: 200px;
+    height: 190px;
+    background-color: indianred;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    padding: 5px;
+    background-color: grey;
+    border-radius: 5px;
+    justify-content: center;
+}
